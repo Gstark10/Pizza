@@ -1,0 +1,80 @@
+.brand{
+    background: gray !important;
+    padding-right: 20%;
+}
+.brand-logo{
+    padding-right: 20%;
+}
+.brand-text{
+    color: gray !important;
+}
+.more-text{
+    color: blue !important;
+}
+form{
+    max-width: 460px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.mypizza{
+    padding: 20px;
+    height: 80vh;
+    padding-left: 35%;
+}
+.pizza{
+    width: 100px;
+    margin: 40px auto -30px;
+    display: block;
+    position: relative;
+    top: -30px;
+}
+.fpizza{
+    padding: 20px;
+    height: 80vh;
+    padding-left: 40%;
+    
+}
+
+
+  @media (max-width: 480px) {
+    /* CSS rules for smaller screens */
+    .container {
+      width: 100%;
+      padding-right: 20%;
+    }
+    .container-nav{
+      padding-left: 50%;
+    }
+    .brand-logo{
+        width: 100%;
+    }
+    .milli{
+        padding-right: 20%;
+        /* color: navy; */
+    }
+    /* .btn{
+        padding-right: 20%;
+        margin-right: 20%;
+    } */
+    .mypizza{
+        width: 100%;
+        padding-right: 15%;
+        padding-left: 15%;
+
+    }
+    .fpizza{
+        width: 100%;
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    /* .btn.brand.z-depth-0{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    } */
+    /* .width{
+        padding-right: 100%;
+        width: 100%;
+    } */
+  }
